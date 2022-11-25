@@ -46,9 +46,21 @@ ul li:hover {
 }
 
 ul li.checked {
-  background: #f1faee;
+  background: #5acdd9;
   color: #fff;
   text-decoration: line-through;
+}
+
+.deleteButton {
+  text-align: center;
+  font-size: 20px;
+  width: 15%;
+  background: #2b2d42;
+  color: rgb(251, 249, 249);
+  float: right;
+  cursor: pointer;
+  border-radius: 15px;
+  border: 0;
 }
 
 #newTask {
@@ -80,18 +92,6 @@ ul li.checked {
 .add_task_button:hover {
   background: #a8dadc;
   color: black;
-  border: 0;
-}
-
-.deleteButton {
-  text-align: center;
-  font-size: 20px;
-  width: 15%;
-  background: #2b2d42;
-  color: rgb(251, 249, 249);
-  float: right;
-  cursor: pointer;
-  border-radius: 15px;
   border: 0;
 }
 
